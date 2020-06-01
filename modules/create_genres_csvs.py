@@ -36,8 +36,6 @@ def save_data(genres_df, movies_genres_df):
     movies_genres_file = f"{create_genres_path}/../files/movies_genres.csv"
     movies_genres_df.to_csv(movies_genres_file, index=False)
 
-    
-
 movies_df = load_clean_movie_file()
 genres_df, movies_genres_df = generate_generas_dfs(movies_df)
 print(genres_df.head(20))
