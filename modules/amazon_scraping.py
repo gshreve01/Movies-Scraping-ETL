@@ -173,11 +173,11 @@ try:
         # if count > 10:
         #     break
 
-        if movie.title == "Dreamkiller":
-            skipRows = False
+        # if movie.title == "Dreamkiller":
+        #     skipRows = False
 
-        if skipRows:
-            continue
+        # if skipRows:
+        #     continue
 
         # should have been part of cleaning data process
         release_date = movie.release_date
